@@ -193,6 +193,19 @@ Mobile*/
 
 }
 
+@media(max-width: 400px){
+  .slide .slide-text{
+    text-align: start;
+  }
+}
+
+@media(min-width: 400px) and (max-width:800px){
+  .project .title{
+    padding:120px 20px 0px 20px;
+
+  }
+}
+
 /*Tablet*/
 @media(min-width: 700px) and (max-width:1400px){
 
@@ -214,6 +227,30 @@ Mobile*/
 /*
 Skill
 Mobile*/
+@media  (max-width: 400px) {
+  .wrapper .tab {
+    height: 125px;
+    width: 110px;
+  }
+  .skill-icon{
+    padding-top: 0px;
+  }
+  .skill-icon img{
+    height: 30px;
+  }
+  .skill-text{
+    font-size: 13px;
+  }
+  .skill-text h4{
+    padding: 0 6px; 
+  }
+  
+  .skill-text  p{
+    padding: 0 20px;
+  }
+
+
+}
 
 @media  (max-width: 600px) {
   .skill-container{
@@ -238,32 +275,32 @@ Mobile*/
 @media(max-width:1430px){
 
   .hobby   .title{
-    margin: auto;
+    padding: auto;
   }
   .title h4{
     text-align: center;
     margin: auto;
-      font-size: 40px;
-      letter-spacing: 7px;
+    font-size: 40px;
+    letter-spacing: 7px;
       
     }
-    
     
     .gallery img {
       width: 100px;
       height: 100px;
       padding: 0 2px;
     }
+
+    .shadow{
+
+      background: rgba(20, 20, 20, 0.559);
+      backdrop-filter: blur(0);
+    }
 }
 
 /*Tablet*/
 @media (min-width: 700px) and (max-width:1430px){
-  .title h4{
-      font-size: 35px;
-      letter-spacing: 15px;
-      
-    }
-    
+ 
     
     .gallery img {
       width: 250px;
